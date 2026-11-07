@@ -1,6 +1,6 @@
 # AlphaDog Beta Test Agreement
 
-Version 1. This is the text you sign in AlphaDog Beta.
+Version 2. This is the text you sign in AlphaDog Beta.
 
 Please read this before you use AlphaDog. To use this beta you need to accept every point below and sign with your full name.
 
@@ -34,7 +34,7 @@ Your licence is personal: for you, on one computer. Please do not pass on the ap
 
 ## 8. What the beta sends
 
-To check that your licence is still valid, the beta reads a small status file from the internet when it starts and every few hours. It sends nothing about your library. Your access request holds your name, e-mail address, an ID for this computer and installation, and the time you signed this agreement; you send it to us yourself.
+To check that your licence is still valid, and to get messages and updates about the beta, the beta contacts the AlphaDog server (run by the developer and hosted by Fly.io) when it starts, every few hours, and when you ask it to check. Before you have a licence it sends only details of the app: its build and version, and your operating system. Once you have one, it also sends your licence, which holds your name, e-mail address, licence ID and end date, an ID for this computer and this installation, and the version of this agreement you signed. The server keeps a record of your licence and when it last heard from it, and it sees your internet (IP) address. If you accept a record label's invitation to receive promos, the beta also sends what happens to that label's promo tracks, and nothing else: when they are downloaded, analysed, put on or taken off a USB stick (with the stick's name and the file's place on it), and played, and where. The label that sent them may see this for its own tracks. The beta never sends anything about the rest of your library, your other tracks or your other play history. When a newer beta is out, the app offers to download it from the beta's page on GitHub and install it. This information is used only to run the beta, its licences and its promos. Your access request holds your name, e-mail address, an ID for this computer and installation, and the time you signed this agreement; you send it to us yourself.
 
 ## 9. Feedback
 
@@ -54,4 +54,4 @@ AlphaDog is independent. It is not made, endorsed or supported by AlphaTheta, Pi
 
 Signing: you type your full name and e-mail address in the app and press Sign. The date and time are recorded with the agreement's fingerprint:
 
-`SHA-256 805409cd5d4dd080812d099ed469d75c3e613c9abad76b1cf81ced50a3a503f1`
+`SHA-256 fd2efa62fc7d710b41d74729ad0dcb58a537ef505e5ef11bcb9f34363b282788`

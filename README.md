@@ -1,10 +1,10 @@
-# AlphaDog Beta 1
+# AlphaDog Beta
 
 **Test software, for invited beta testers only.**
 
 AlphaDog works on your Rekordbox library: it repairs and tidies the collection, edits cues and grids,
-builds playlists, and prepares USB sticks. This is the first beta. It is not finished, and **it has not
-been comprehensively tested on professional DJ equipment.**
+builds playlists, and prepares USB sticks. This is a beta: it is not finished, and **it has not been
+comprehensively tested on professional DJ equipment.**
 
 > **Before you use it, every time:** back up your Rekordbox library (in Rekordbox: *File > Library >
 > Backup Library*) and keep a copy of your music files.
@@ -23,14 +23,14 @@ been comprehensively tested on professional DJ equipment.**
 - An internet connection when you first set it up. After that, AlphaDog Beta checks its licence when it
   starts and every few hours; it keeps working offline for up to 14 days.
 
-A Windows build is offered only if `AlphaDog-Beta-1-Setup.exe` is listed on the
-[release page](https://github.com/wsachar/alphadog-beta/releases/tag/beta-1).
+A Windows build is offered only if a file ending in `-Setup.exe` is listed on the
+[latest release](https://github.com/wsachar/alphadog-beta/releases/latest).
 
 ## 1. Download
 
-From the [Beta 1 release page](https://github.com/wsachar/alphadog-beta/releases/tag/beta-1):
+From the [latest release](https://github.com/wsachar/alphadog-beta/releases/latest):
 
-- Mac: **AlphaDog-Beta-1-arm64.dmg**
+- Mac: the file ending in **-arm64.dmg** (`AlphaDog-Beta-1-arm64.dmg`)
 
 ## 2. Install (Mac)
 
@@ -51,7 +51,7 @@ AlphaDog Beta keeps its own settings, separate from any other copy of AlphaDog.
 
 ### Windows (only if a Windows download is listed)
 
-Run `AlphaDog-Beta-1-Setup.exe`. If Windows shows "Windows protected your PC", click **More info**, then
+Run the file ending in `-Setup.exe`. If Windows shows "Windows protected your PC", click **More info**, then
 **Run anyway**.
 
 ## 3. Sign the agreement and get your licence
@@ -72,25 +72,36 @@ You can close the app while you wait; your signature is kept.
 1. Back up your library in Rekordbox (*File > Library > Backup Library*). AlphaDog reminds you each time it
    starts.
 2. Close Rekordbox while AlphaDog changes your library.
-3. Follow the setup screen to point AlphaDog at your Rekordbox library. **Help & Guide** in the sidebar has
-   a guided tour and the manual.
+3. Setup finds your Rekordbox library: press **Use this library**. It then works out your music folder,
+   and your Dropbox folder if your music is in Dropbox: press **Use these**.
+4. Rather not touch your real library yet? Press **Start with a new, empty library** instead. It goes in
+   your Music folder as *AlphaDog Library*, and Rekordbox never sees it.
 
-Everything in the beta carries a faint *AlphaDog Beta 1 · test build* watermark, and the sidebar shows
-**Beta 1** with the build ID. Click **Test build** in the sidebar to see your licence, when it ends, and
+**Help & Guide** in the sidebar has a guided tour and the manual.
+
+Everything in the beta carries a faint *AlphaDog Beta · test build* watermark, and the sidebar shows the
+beta's name and version (for example **Beta 1 · 1.00**) with the build ID. Click **Test build** in the sidebar to see your licence, when it ends, and
 when it was last checked.
 
 ## Reporting a problem
 
 Please include:
 
-- the **build ID** (under *Beta 1* at the top of the sidebar, for example `B1-20261106-1a2b3c4`),
+- the **build ID** (under the beta's name at the top of the sidebar, for example `B1-20261108-1a2b3c4`),
 - what you did, what you expected, and what happened (a screenshot helps),
 - the log folder for anything that went wrong: *Settings > Diagnostics > Open logs folder*.
 
+## Updating to a newer version
+
+Each update is a new version of Beta 1: 1.01, 1.02 and so on. From 1.00, AlphaDog Beta offers a new version
+itself when one is out. You can also download it from the
+[latest release](https://github.com/wsachar/alphadog-beta/releases/latest) and drag it into Applications,
+replacing the old one. Your licence and settings carry over: you don't sign or ask again.
+
 ## When the beta ends
 
-A licence ends on the date shown in the app, or earlier if it is withdrawn or this beta is replaced by a
-newer one. AlphaDog Beta then stops opening the app and says why. **Your Rekordbox library and music files
+A licence ends on the date shown in the app, or earlier if it is withdrawn or your copy is too old to
+keep using (then install the latest version). AlphaDog Beta then stops opening the app and says why. **Your Rekordbox library and music files
 are left exactly as they are** and keep working in Rekordbox.
 
 ## Removing it
