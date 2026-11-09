@@ -60,12 +60,19 @@ AlphaDog Beta needs a licence that works on your computer only.
 
 1. When AlphaDog Beta opens, read the **Beta Test Agreement**, tick every point, type your full name and
    e-mail address, and click **Sign and create my access request**.
-2. Click **E-mail it** (or **Copy the request**) and send the access request to the address the app
-   shows. It contains your name, e-mail address, the signed agreement and an ID for your computer.
-3. You'll get a licence key back that starts with `ADB1-`. Paste all of it into **Paste your licence
-   key** and click **Activate AlphaDog Beta**.
+2. Click **Send my request**. It goes straight to the person running the beta and contains your name,
+   e-mail address, the signed agreement and an ID for your computer.
+3. **Check your e-mail.** Open the link we send you to confirm your address (no e-mail? check your spam
+   folder, or click **Send the e-mail again**).
+4. **Wait for approval.** When your request is approved, your licence arrives in the app by itself and
+   AlphaDog Beta opens. You also get an e-mail with your licence key.
 
-You can close the app while you wait; your signature is kept.
+You can close the app while you wait: it picks up where it left off when you open it again.
+
+If the app can't reach the server, open **Can't send it? Copy the request and e-mail it** on the same
+screen and send the request to the address shown. A licence key you get back by e-mail (it starts with
+`ADB1-`) goes into **Already have a licence key?**. Versions before 1.07 always work this way: **E-mail it**
+(or **Copy the request**), then paste the key into **Paste your licence key**.
 
 ## 4. First steps
 
