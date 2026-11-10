@@ -2,15 +2,18 @@
 
 **Test software, for invited beta testers only.**
 
-AlphaDog works on your Rekordbox library: it repairs and tidies the collection, edits cues and grids,
-builds playlists, and prepares USB sticks. This is a beta: it is not finished, and **it has not been
-comprehensively tested on professional DJ equipment.**
+AlphaDog repairs and tidies your DJ library, edits cues and grids, builds playlists, and prepares USB
+sticks. It works either in a library of its own, copied from your Rekordbox library (**Move to AlphaDog**,
+which we recommend), or alongside Rekordbox, in Rekordbox's own library. This is a beta: it is not
+finished, and **it has not been comprehensively tested on professional DJ equipment.**
 
-> **Before you use it, every time:** back up your Rekordbox library (in Rekordbox: *File > Library >
-> Backup Library*) and keep a copy of your music files.
+> **Before you use it, every time:** back up the library AlphaDog works in and keep a copy of your music
+> files. Alongside Rekordbox, that is your Rekordbox library (in Rekordbox: *File > Library > Backup
+> Library*). Moved to AlphaDog, copy AlphaDog's library folder (*Settings > Your library* shows where it
+> is) somewhere else.
 >
 > **Playing out:** carry a backup USB exported **directly from Rekordbox**, not from AlphaDog, and check
-> that it plays.
+> that it plays. After a move, that stick won't have the changes you made in AlphaDog.
 >
 > The developer takes no responsibility for any loss, including incorrect or damaged libraries, files or
 > USB sticks. You'll read and sign the full [Beta Test Agreement](AGREEMENT.md) in the app before you can
@@ -58,14 +61,23 @@ Run the file ending in `-Setup.exe`. If Windows shows "Windows protected your PC
 
 AlphaDog Beta needs a licence that works on your computer only.
 
+> **Confirm your e-mail address, or we never see your request.** After you send it, we e-mail you a link.
+> Your request reaches us only once you open that link, so we can't send you a licence until you do.
+> The e-mail comes from **AlphaDog** (`alphadogdj3@gmail.com`) with the subject
+> *Confirm your e-mail for AlphaDog Beta*. **It often lands in junk or spam**: if it isn't in your inbox
+> within a few minutes, look there. The link works for 48 hours.
+
 1. When AlphaDog Beta opens, read the **Beta Test Agreement**, tick every point, type your full name and
    e-mail address, and click **Sign and create my access request**.
-2. Click **Send my request**. It goes straight to the person running the beta and contains your name,
-   e-mail address, the signed agreement and an ID for your computer.
-3. **Check your e-mail.** Open the link we send you to confirm your address (no e-mail? check your spam
-   folder, or click **Send the e-mail again**).
-4. **Wait for approval.** When your request is approved, your licence arrives in the app by itself and
-   AlphaDog Beta opens. You also get an e-mail with your licence key.
+2. Click **Send my request**. It contains your name, e-mail address, the signed agreement and an ID for
+   your computer.
+3. **Confirm your e-mail address.** Open the e-mail from AlphaDog and click the link in it. Not in your
+   inbox? Check your **junk or spam** folder, and mark it *not junk* so your licence e-mail gets through
+   too. Still nothing after a few minutes? Click **Send the e-mail again** in the app. Wrong address?
+   Click **Wrong address? Sign again**.
+4. **Wait for approval.** Once you have confirmed, your request is with the person running the beta. When
+   it is approved, your licence arrives in the app by itself and AlphaDog Beta opens. You also get an
+   e-mail with your licence key, from the same address (check junk or spam again).
 
 You can close the app while you wait: it picks up where it left off when you open it again.
 
@@ -78,11 +90,20 @@ screen and send the request to the address shown. A licence key you get back by 
 
 1. Back up your library in Rekordbox (*File > Library > Backup Library*). AlphaDog reminds you each time it
    starts.
-2. Close Rekordbox while AlphaDog changes your library.
-3. Setup finds your Rekordbox library: press **Use this library**. It then works out your music folder,
-   and your Dropbox folder if your music is in Dropbox: press **Use these**.
-4. Rather not touch your real library yet? Press **Start with a new, empty library** instead. It goes in
+2. Setup finds your Rekordbox library and asks how you want to use AlphaDog:
+   - **Move to AlphaDog** (recommended). Close Rekordbox first. AlphaDog copies your library into one of
+     its own (*AlphaDog Library* in your Music folder) and uses only that from then on. Your Rekordbox
+     library is left exactly as it is, and you can keep Rekordbox open. Rekordbox won't see the changes
+     you make in AlphaDog, and AlphaDog can't copy them back.
+   - **Use alongside Rekordbox**. Both apps share Rekordbox's library, and every change shows in both.
+     Close Rekordbox while AlphaDog saves. You can move later in *Settings > Your library*.
+3. Setup then works out your music folder, and your Dropbox folder if your music is in Dropbox: press
+   **Use these**.
+4. No Rekordbox library, or starting from scratch? Press **Start with a new, empty library**. It goes in
    your Music folder as *AlphaDog Library*, and Rekordbox never sees it.
+
+Either way, your music files are shared. After a move, if you use AlphaDog to move or delete files (to
+merge duplicates or consolidate, for example), Rekordbox isn't told and will show those tracks as missing.
 
 **Help & Guide** in the sidebar has a guided tour and the manual.
 
@@ -91,6 +112,10 @@ beta's name and version (for example **Beta 1 · 1.00**) with the build ID. Clic
 when it was last checked.
 
 ## Reporting a problem
+
+Please report every bug, and any improvement you'd like: click **Issues** at the foot of the sidebar,
+choose *Something's wrong* or *Idea or request*, and press **Send**. It goes straight to us with your
+version and build ID filled in.
 
 Please include:
 
@@ -103,19 +128,22 @@ Please include:
 Each update is a new version of Beta 1: 1.01, 1.02 and so on. From 1.00, AlphaDog Beta offers a new version
 itself when one is out. You can also download it from the
 [latest release](https://github.com/wsachar/alphadog-beta/releases/latest) and drag it into Applications,
-replacing the old one. Your licence and settings carry over: you don't sign or ask again.
+replacing the old one. On Windows, unless the app offers the update itself, run the new version's file ending
+in `-Setup.exe`: it replaces the old one. Your licence and settings carry over: you don't sign or ask again.
 
 ## When the beta ends
 
 A licence ends on the date shown in the app, or earlier if it is withdrawn or your copy is too old to
 keep using (then install the latest version). AlphaDog Beta then stops opening the app and says why. **Your Rekordbox library and music files
-are left exactly as they are** and keep working in Rekordbox.
+are left exactly as they are** and keep working in Rekordbox. If you moved to AlphaDog, its own library
+stays in your Music folder (*AlphaDog Library*).
 
 ## Removing it
 
 Drag **AlphaDog Beta** from Applications to the Bin. To remove its settings and licence too, delete the
 folder `~/Library/Application Support/alphadog-beta` (in Finder: *Go > Go to Folder…*). Neither touches
-your Rekordbox library.
+your Rekordbox library, or AlphaDog's own library in your Music folder (delete *AlphaDog Library* yourself
+if you no longer want it).
 
 ---
 
