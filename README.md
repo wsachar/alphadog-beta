@@ -88,21 +88,27 @@ screen and send the request to the address shown. A licence key you get back by 
 
 ## 4. First steps
 
-1. Back up your library in Rekordbox (*File > Library > Backup Library*). AlphaDog reminds you each time it
-   starts.
-2. Setup finds your Rekordbox library and asks how you want to use AlphaDog:
-   - **Move to AlphaDog** (recommended). Close Rekordbox first. AlphaDog copies your library into one of
-     its own (*AlphaDog Library* in your Music folder) and uses only that from then on. Your Rekordbox
-     library is left exactly as it is, and you can keep Rekordbox open. Rekordbox won't see the changes
-     you make in AlphaDog, and AlphaDog can't copy them back.
-   - **Use alongside Rekordbox**. Both apps share Rekordbox's library, and every change shows in both.
-     Close Rekordbox while AlphaDog saves. You can move later in *Settings > Your library*.
-3. Setup then works out your music folder, and your Dropbox folder if your music is in Dropbox: press
-   **Use these**.
-4. No Rekordbox library, or starting from scratch? Press **Start with a new, empty library**. It goes in
-   your Music folder as *AlphaDog Library*, and Rekordbox never sees it.
+1. Using Rekordbox? Back up your library in Rekordbox first (*File > Library > Backup Library*). AlphaDog
+   reminds you each time it starts.
+2. Setup goes one step at a time. First it asks how you want to start:
+   - **I use Rekordbox**. Quit Rekordbox, then choose how AlphaDog uses its library:
+     - **Move to AlphaDog** (recommended, chosen for you). AlphaDog copies your library into one of
+       its own (*AlphaDog Library* in your Music folder) and uses only that from then on. Your Rekordbox
+       library is left exactly as it is, and you can keep Rekordbox open. Rekordbox won't see the changes
+       you make in AlphaDog, and AlphaDog can't copy them back.
+     - **Use alongside Rekordbox**. Both apps share Rekordbox's library, and every change shows in both.
+       Close Rekordbox while AlphaDog saves. You can move later in *Settings > Your library*.
 
-Either way, your music files are shared. After a move, if you use AlphaDog to move or delete files (to
+     Setup then works out your music folder (and your Dropbox folder, if your music is in Dropbox):
+     press **Use this folder**.
+   - **Start fresh**, for no Rekordbox library or a clean start. Press **Create my library**: AlphaDog
+     makes its own library and a folder for your music, both in *Music > AlphaDog Library*, and Rekordbox
+     never sees them.
+3. The last step shows where everything is saved: your library, your music and AlphaDog's automatic
+   backups. If it says Time Machine isn't set up, turn it on, so a copy survives a lost or broken
+   computer.
+
+With Rekordbox, your music files are shared either way. After a move, if you use AlphaDog to move or delete files (to
 merge duplicates or consolidate, for example), Rekordbox isn't told and will show those tracks as missing.
 
 **Help & Guide** in the sidebar has a guided tour and the manual.
