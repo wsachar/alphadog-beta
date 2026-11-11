@@ -26,14 +26,20 @@ finished, and **it has not been comprehensively tested on professional DJ equipm
 - An internet connection when you first set it up. After that, AlphaDog Beta checks its licence when it
   starts and every few hours; it keeps working offline for up to 14 days.
 
-A Windows build is offered only if a file ending in `-Setup.exe` is listed on the
-[latest release](https://github.com/wsachar/alphadog-beta/releases/latest).
+There is a Windows version only when the
+[latest release](https://github.com/wsachar/alphadog-beta/releases/latest) has a
+**Download AlphaDog Beta for Windows** link.
 
 ## 1. Download
 
-From the [latest release](https://github.com/wsachar/alphadog-beta/releases/latest):
+Open the [latest release](https://github.com/wsachar/alphadog-beta/releases/latest). At the top, under
+**Latest file downloads**:
 
-- Mac: the file ending in **-arm64.dmg** (`AlphaDog-Beta-1-arm64.dmg`)
+- Mac: click **Download AlphaDog Beta for Mac**. In the list of files further down it is called
+  *AlphaDog Beta for Mac (Apple silicon) – download this one*. The file you get is `AlphaDog-Beta-1-arm64.dmg`.
+
+You only need that one file. The *Mac update file* is for the app itself, and the two *Source code* files
+are not the app.
 
 ## 2. Install (Mac)
 
@@ -54,7 +60,8 @@ AlphaDog Beta keeps its own settings, separate from any other copy of AlphaDog.
 
 ### Windows (only if a Windows download is listed)
 
-Run the file ending in `-Setup.exe`. If Windows shows "Windows protected your PC", click **More info**, then
+On the latest release, click **Download AlphaDog Beta for Windows** and run the file you get
+(`AlphaDog-Beta-1-Setup.exe`). If Windows shows "Windows protected your PC", click **More info**, then
 **Run anyway**.
 
 ## 3. Sign the agreement and get your licence
@@ -134,8 +141,8 @@ Please include:
 Each update is a new version of Beta 1: 1.01, 1.02 and so on. From 1.00, AlphaDog Beta offers a new version
 itself when one is out. You can also download it from the
 [latest release](https://github.com/wsachar/alphadog-beta/releases/latest) and drag it into Applications,
-replacing the old one. On Windows, unless the app offers the update itself, run the new version's file ending
-in `-Setup.exe`: it replaces the old one. Your licence and settings carry over: you don't sign or ask again.
+replacing the old one. On Windows, unless the app offers the update itself, download the new version with
+**Download AlphaDog Beta for Windows** and run it: it replaces the old one. Your licence and settings carry over: you don't sign or ask again.
 
 ## When the beta ends
 
