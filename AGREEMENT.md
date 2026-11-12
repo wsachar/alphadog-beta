@@ -1,6 +1,6 @@
 # AlphaDog Beta Test Agreement
 
-Version 4. This is the text you sign in AlphaDog Beta.
+Version 5. This is the text you sign in AlphaDog Beta.
 
 Please read this before you use AlphaDog. To use this beta you need to accept every point below and sign with your full name.
 
@@ -42,7 +42,7 @@ AlphaDog and everything in it (its code, designs, analysis methods and documenta
 
 ## 10. What the beta sends
 
-To check that your licence is still valid, and to get messages and updates about the beta, the beta contacts the AlphaDog server (run by the developer and hosted by Fly.io) when it starts, every few hours, and when you ask it to check. Before you have a licence it sends only details of the app: its build and version, and your operating system. Once you have one, it also sends your licence, which holds your name, e-mail address, licence ID and end date, an ID for this computer and this installation, and the version of this agreement you signed. The server keeps a record of your licence and when it last heard from it, and it sees your internet (IP) address. If you accept a record label's invitation to receive promos, the beta also sends what happens to that label's promo tracks, and nothing else: when they are downloaded, analysed, put on or taken off a USB stick (with the stick's name and the file's place on it), and played, and where. The label that sent them may see this for its own tracks. The beta never sends anything about the rest of your library, your other tracks or your other play history. When a newer beta is out, the app offers to download it from the beta's page on GitHub and install it. This information is used only to run the beta, its licences and its promos. Your access request holds your name, e-mail address, an ID for this computer and installation, and the time you signed this agreement; you send it to us yourself.
+To check that your licence is still valid, and to get messages and updates about the beta, the beta contacts the AlphaDog server (run by the developer and hosted by Fly.io) when it starts, every few hours, and when you ask it to check. Before you have a licence it sends only details of the app: its build and version, and your operating system. Once you have one, it also sends your licence, which holds your name, e-mail address, licence ID and end date, an ID for this computer and this installation, and the version of this agreement you signed. The server keeps a record of your licence and when it last heard from it, and it sees your internet (IP) address. If you accept a record label's invitation to receive promos, the beta also sends what happens to that label's promo tracks, and nothing else: when they are downloaded, analysed, put on or taken off a USB stick (with the stick's name and the file's place on it), and played, and where. The label that sent them may see this for its own tracks. The beta never sends anything about the rest of your library, your other tracks or your other play history, except this: when AlphaDog finds a record label's website for you, or you type one in, it sends that label's name and the website's address (no tracks or anything else from your library), so that the developer can check it and share the right ones with other testers. To find a website it asks MusicBrainz, a public music database, with the label's name only. When a newer beta is out, the app offers to download it from the beta's page on GitHub and install it. This information is used only to run the beta, its licences, its promos and its label pages. Your access request holds your name, e-mail address, an ID for this computer and installation, and the time you signed this agreement; you send it to us yourself.
 
 ## 11. Feedback
 
@@ -64,4 +64,4 @@ AlphaDog is independent. It is not affiliated with, endorsed by or supported by 
 
 Signing: you type your full name and e-mail address in the app and press Sign. The date and time are recorded with the agreement's fingerprint:
 
-`SHA-256 34695769e04012e6ce0fe720691d41fd60e2042e21f85c9a861322b1245454c2`
+`SHA-256 5fe74ef423c16e561622c86f18719c21867d21dc4d82eba369f3f84c46747491`
