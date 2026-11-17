@@ -44,17 +44,12 @@ are not the app.
 ## 2. Install (Mac)
 
 1. Open the downloaded `.dmg` and drag **AlphaDog Beta** into **Applications**.
-2. Open **AlphaDog Beta** from Applications. Because this beta is not signed by Apple, macOS stops it the
-   first time ("Apple could not verify…" or "cannot be opened"). Click **Done** (not *Move to Bin*).
-3. Open **System Settings > Privacy & Security**, scroll down to the message about *AlphaDog Beta*, and
-   click **Open Anyway**. Enter your password, then click **Open**.
+2. Open **AlphaDog Beta** from Applications. macOS asks once whether you want to open an app downloaded
+   from the Internet: click **Open**.
 
-You only do this once. If macOS says the app "is damaged and can't be opened", open **Terminal** and run
-this line, then open the app again:
-
-```
-xattr -dr com.apple.quarantine "/Applications/AlphaDog Beta.app"
-```
+That is the only question: AlphaDog Beta is signed with its developer's Apple Developer ID and checked by
+Apple. If macOS says instead that Apple "could not verify" AlphaDog Beta, you have an older download from
+before the app was signed: download the latest release again.
 
 AlphaDog Beta keeps its own settings, separate from any other copy of AlphaDog.
 
