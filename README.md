@@ -2,9 +2,9 @@
 
 **Test software, for invited beta testers only.** Website: [boothmaster.app](https://boothmaster.app)
 
-BoothMaster is the new name of AlphaDog (from version 1.24). It is the same app, with the same dog for a
-logo: your licence, settings and library carry on as they were. A few things keep the old name for now,
-and this guide says where. Releases up to 1.23 went out as AlphaDog Beta.
+From version 1.24 the beta has a new name, BoothMaster. It is the same app, with the same dog for a
+logo: your licence, settings and library carry on as they were. A few things on your computer keep the
+beta's old name until a coming update, and this guide says where.
 
 BoothMaster repairs and tidies your DJ library, edits cues and grids, builds playlists, and prepares USB
 sticks. It works either in a library of its own, copied from your Rekordbox library (**Move to
@@ -21,7 +21,7 @@ is not finished, and **it has not been comprehensively tested on professional DJ
 >
 > The developer takes no responsibility for any loss, including incorrect or damaged libraries, files or
 > USB sticks. You'll read and sign the full [Beta Test Agreement](AGREEMENT.md) in the app before you can
-> use it. The agreement still calls the app by its old name, AlphaDog, until its next version.
+> use it. The agreement still uses the app's old name until its next version.
 
 ## What you need
 
@@ -41,18 +41,17 @@ Open the [latest release](https://github.com/wsachar/alphadog-beta/releases/late
 **Latest file downloads**:
 
 - Mac: click **Download BoothMaster Beta for Mac**. In the list of files further down it is called
-  *BoothMaster Beta for Mac (Apple silicon) – download this one*. The file you get still has the old
-  name: `AlphaDog-Beta-1-arm64.dmg`.
+  *BoothMaster Beta for Mac (Apple silicon) – download this one*. The file you get ends in `-arm64.dmg`.
 
 You only need that one file. The *Mac update file* is for the app itself, and the two *Source code* files
 are not the app.
 
 ## 2. Install (Mac)
 
-1. Open the downloaded `.dmg` and drag the app into **Applications**. Its file there keeps the old name
-   for now: **AlphaDog Beta**.
-2. Open **AlphaDog Beta** from Applications. macOS asks once whether you want to open an app downloaded
-   from the Internet: click **Open**. In the Dock and the app menu it is called BoothMaster.
+1. Open the downloaded `.dmg` and drag the app (the dog icon) into **Applications**. Until a coming
+   update, Finder lists it there under the beta's old name.
+2. Open it from Applications. macOS asks once whether you want to open an app downloaded from the
+   Internet: click **Open**. In the Dock and the app menu it is called BoothMaster.
 
 That is the only question: the app is signed with its developer's Apple Developer ID and notarized by
 Apple. If macOS says instead that Apple "could not verify" the app, you have an older download from
@@ -62,9 +61,8 @@ BoothMaster Beta keeps its own settings, separate from any other copy of the app
 
 ### Windows (only if a Windows download is listed)
 
-On the latest release, click **Download BoothMaster Beta for Windows** and run the file you get (it still
-has the old name, `AlphaDog-Beta-1-Setup.exe`). If Windows shows "Windows protected your PC", click
-**More info**, then **Run anyway**.
+On the latest release, click **Download BoothMaster Beta for Windows** and run the file you get (it ends
+in `-Setup.exe`). If Windows shows "Windows protected your PC", click **More info**, then **Run anyway**.
 
 ## 3. Sign the agreement and get your licence
 
@@ -72,7 +70,7 @@ BoothMaster Beta needs a licence that works on your computer only.
 
 > **Confirm your e-mail address, or we never see your request.** After you send it, we e-mail you a link.
 > Your request reaches us only once you open that link, so we can't send you a licence until you do.
-> The e-mail comes from **BoothMaster** (`alphadogdj3@gmail.com`) with the subject
+> The e-mail comes from **BoothMaster** with the subject
 > *Confirm your e-mail for BoothMaster Beta*. **It often lands in junk or spam**: if it isn't in your
 > inbox within a few minutes, look there. The link works for 48 hours.
 
@@ -102,8 +100,7 @@ screen and send the request to the address shown. A licence key you get back by 
 2. Setup goes one step at a time. First it asks how you want to start:
    - **I use Rekordbox**. Quit Rekordbox, then choose how BoothMaster uses its library:
      - **Move to BoothMaster** (recommended, chosen for you). BoothMaster copies your library into one
-       of its own (*AlphaDog Library* in your Music folder: the folder keeps its old name) and uses only
-       that from then on. Your Rekordbox library is left exactly as it is, and you can keep Rekordbox
+       of its own, in a folder in your Music folder, and uses only that from then on. Your Rekordbox library is left exactly as it is, and you can keep Rekordbox
        open. Rekordbox won't see the changes you make in BoothMaster, and BoothMaster can't copy them
        back.
      - **Use alongside Rekordbox**. Both apps share Rekordbox's library, and every change shows in both.
@@ -112,8 +109,8 @@ screen and send the request to the address shown. A licence key you get back by 
      Setup then works out your music folder (and your Dropbox folder, if your music is in Dropbox):
      press **Use this folder**.
    - **Start fresh**, for no Rekordbox library or a clean start. Press **Create my library**: BoothMaster
-     makes its own library and a folder for your music, both in *Music > AlphaDog Library*, and Rekordbox
-     never sees them.
+     makes its own library and a folder for your music, both in a folder in your Music folder, and
+     Rekordbox never sees them. *Settings > Your library* shows where.
 3. The last step shows where everything is saved: your library, your music and BoothMaster's automatic
    backups. If it says Time Machine isn't set up, turn it on, so a copy survives a lost or broken
    computer.
@@ -147,22 +144,23 @@ version itself when one is out. You can also download it from the
 [latest release](https://github.com/wsachar/alphadog-beta/releases/latest) and drag it into Applications,
 replacing the old one. On Windows, unless the app offers the update itself, download the new version with
 **Download BoothMaster Beta for Windows** and run it: it replaces the old one. Your licence and settings
-carry over: you don't sign or ask again. Coming from AlphaDog Beta 1.23 or earlier? The update installs
-over it like any other.
+carry over: you don't sign or ask again. Coming from 1.23 or earlier, under the old name? The update
+installs over it like any other.
 
 ## When the beta ends
 
 A licence ends on the date shown in the app, or earlier if it is withdrawn or your copy is too old to
 keep using (then install the latest version). BoothMaster Beta then stops opening the app and says why.
 **Your Rekordbox library and music files are left exactly as they are** and keep working in Rekordbox.
-If you moved to BoothMaster, its own library stays in your Music folder (*AlphaDog Library*).
+If you moved to BoothMaster, its own library stays in your Music folder (*Settings > Your library* shows
+where).
 
 ## Removing it
 
-Drag **AlphaDog Beta** (the app's file keeps its old name for now) from Applications to the Bin. To remove
-its settings and licence too, delete the folder `~/Library/Application Support/alphadog-beta` (in Finder:
-*Go > Go to Folder…*). Neither touches your Rekordbox library, or BoothMaster's own library in your Music
-folder (delete *AlphaDog Library* yourself if you no longer want it).
+Drag the app (the dog icon) from Applications to the Bin. To remove its settings and licence too, delete
+the folder `~/Library/Application Support/alphadog-beta` (in Finder: *Go > Go to Folder…*). Neither
+touches your Rekordbox library, or BoothMaster's own library in your Music folder (before you remove the
+app, *Settings > Your library* shows where it is; delete it yourself if you no longer want it).
 
 ---
 
